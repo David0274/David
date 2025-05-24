@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #8d2424;
+}
+header{
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    background-color: #ff8800;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+    font-size: 30px;
+}
+section{
+    padding: 20px;
+    margin: 10px auto;
+    background-color: rgb(247, 255, 1);
+    border-radius:10px ;
+    width: 80%;
+
+}
+.Aboutc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.Aboutt{
+width: 50%;
+padding: 20px;
+}
+.Abouti{
+width: 50%;
+display:flex;
+justify-content: center;
+}
+.Abouti img{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+#Family{
+    padding: 20px;
+    background-color: #3cff00;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+   
+}
+.fam{
+    display : flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+background-color: #ffffff;
+border-radius: 10px;
+padding: 10px;
+width: 20%;
+box-shadow: 0 2px 5px rgb(0, 0, 0);
+text-align: center;
+}
+.card img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3{
+    margin: 10px 0 5px;
+    color:#ff9900;
+}
+.card p{
+    font-size: 14px;
+}
+#edut{
+    background-color:#00bfff;
+     
+  
+
+}
+.Educt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.educat{
+    width: 50%;
+padding: 20px;
+}
+.educati{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    }
+    .educati img{
+        width: 100%;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+    #Hobbies{
+        padding: 20px;
+      background-color:#0015ff;
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 80%;
+       
+    }
+    #Games{
+        padding: 20px;
+        background-color: #f200ff;
+       
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 80%;
+       
+    }
+    #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    }
+    #form input,
+    #form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    }
+    #form textarea{
+        min-height: 100px;
+    }
+    #form button{
+        background-color: rgb(255, 154, 201);
+        color: #ffffff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    #Message{
+        background-color: rgb(255, 67, 154);
+    }
